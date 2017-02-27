@@ -1,3 +1,26 @@
  @import "bootstrap-sprockets";
  @import "bootstrap";
  
+
+/* ...
+*= require_self
+*= require welcome
+*= require rails_bootstrap_forms
+*= require_tree .
+*/
+
+
+.jumbotron { 
+background: url(https://cdn.pixabay.com/photo/2015/01/07/15/51/woman-591576_960_720.jpg); 
+background-repeat: no-repeat;
+background-size: 100%;
+}
+
+
+label {
+  width: 4em;
+  float: left;
+  text-align: right;
+  margin-right: 25px;
+  display: block;
+}

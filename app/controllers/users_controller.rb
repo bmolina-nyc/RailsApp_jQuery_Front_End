@@ -1,13 +1,14 @@
 class UsersController < ApplicationController
 
-  # create a user - the form is directly on the login page 
+  # create a user - the signup form is directly on the login page 
   def create
     user = User.new(user_params)
 
     if user.save
-      redirect_to root_path
+      redirect_to trips_path
     else
-      redirect_to  root_path
+      flash[:notice] = "Incorrect Login Information"
+      redirect_to root_path
     end
   end
  

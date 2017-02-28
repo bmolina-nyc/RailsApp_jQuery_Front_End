@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   
 
+  resources :trips
   resources :sessions
   resources :users
   # the root of the app

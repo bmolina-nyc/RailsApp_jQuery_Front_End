@@ -25,6 +25,6 @@ Trips will save to their profile page (think air bnb)
 
 A user can add trips to their wishlist (maybe comments as well?)
 
-Thinking AJAX GET to auto load between your wishlist and your actual trips on the profile page
+Thinking AJAX GET to auto load between your wishlist and your actual trips on the profile page  (this could be bullet 5)
 
 AJAX POST for comments
